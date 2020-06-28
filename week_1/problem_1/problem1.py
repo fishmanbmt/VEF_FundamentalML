@@ -1,21 +1,6 @@
 #! /usr/bin/python3
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 16b2de3d36e631d088513c86bbe0947ac0cdd02d
-def inputElement():
-	n = input('\tEnter number: ')
-	if not n.isnumeric():
-		print('\t-> Invalid input, input must be a number')
-		n = input('\tEnter number: ')
-
-	return int(n)
-
-<<<<<<< HEAD
-
-=======
->>>>>>> 16b2de3d36e631d088513c86bbe0947ac0cdd02d
 def findMinMax(a):
 	min_val = max_val = a[0]
 	for it in a:
@@ -27,15 +12,8 @@ def findMinMax(a):
 	return min_val, max_val
 
 
-print('Input length of list')
-n = inputElement()
-
-print('-' * 30)
-print('Input each element')
-a = []
-for i in range(n):
-	print('intput a[{}]'.format(i))
-	a.append(inputElement())
+seq_numbers = input('Enter a list of number: ')
+a = [int(x) for x in seq_numbers.split()]
 
 print('-' * 30)
 print('Find min and max value')
