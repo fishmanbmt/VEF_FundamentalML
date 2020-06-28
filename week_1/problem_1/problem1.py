@@ -1,6 +1,9 @@
 #! /usr/bin/python3
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16b2de3d36e631d088513c86bbe0947ac0cdd02d
 def inputElement():
 	n = input('\tEnter number: ')
 	if not n.isnumeric():
@@ -9,7 +12,10 @@ def inputElement():
 
 	return int(n)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 16b2de3d36e631d088513c86bbe0947ac0cdd02d
 def findMinMax(a):
 	min_val = max_val = a[0]
 	for it in a:
