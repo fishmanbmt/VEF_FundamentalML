@@ -1,7 +1,7 @@
 #! /usr/bin/python3
 
 
-def countVowel(s):
+def count_vowel(s):
 	vowels = ['u', 'e', 'o', 'a', 'i']
 	ret = 0
 	for i in s:

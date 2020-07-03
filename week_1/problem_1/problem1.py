@@ -25,4 +25,6 @@ min_val, max_val = findMinMax(a)
 print('\tmin value is {}'.format(min_val))
 print('\tmax value is {}'.format(max_val))
 
-
+print('dddddddddddd')
+a = [1,2,3]
+print(a[-3])
